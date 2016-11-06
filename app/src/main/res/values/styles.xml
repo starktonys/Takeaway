@@ -1,0 +1,59 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
+
+  <style name="SwipeBackLayout">
+    <item name="edge_size">0dp</item>
+  </style>
+
+  <style name="popwindow_anim_style">
+    <item name="android:windowEnterAnimation">@anim/picker_anim_enter_bottom</item>
+    <!-- 指定显示的动画xml -->
+    <item name="android:windowExitAnimation">@anim/picker_anim_exit_bottom</item>
+    <!-- 指定消失的动画xml -->
+  </style>
+
+  <style name="main_tab_style">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">@dimen/dimen_45</item>
+    <item name="android:layout_weight">1</item>
+    <item name="android:gravity">center</item>
+    <item name="android:orientation">horizontal</item>
+    <item name="android:clickable">true</item>
+    <item name="android:background">@color/gray_7</item>
+    <item name="android:layout_gravity">center</item>
+  </style>
+
+  <style name="main_menu_style">
+    <item name="android:layout_width">@dimen/dimen_0</item>
+    <item name="android:layout_height">match_parent</item>
+    <item name="android:layout_marginTop">@dimen/dimen_2</item>
+    <item name="android:paddingTop">@dimen/dimen_3</item>
+    <item name="android:layout_weight">1</item>
+    <item name="android:button">@null</item>
+    <item name="android:textColor">@color/main_radiobutton_text_color</item>
+    <item name="android:textSize">@dimen/text_size_12</item>
+    <item name="android:gravity">center</item>
+  </style>
+
+  <style name="divider_line">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">1px</item>
+    <item name="android:background">@color/divider_line</item>
+  </style>
+
+  <style name="divider_line_12">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">1px</item>
+    <item name="android:layout_marginLeft">@dimen/dimen_12</item>
+    <item name="android:layout_marginRight">@dimen/dimen_12</item>
+    <item name="android:background">@color/divider_line</item>
+  </style>
+
+</resources>

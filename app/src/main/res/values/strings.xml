@@ -1,0 +1,13 @@
+<resources>
+  <string name="app_name">海之韵</string>
+
+  <string name="picker_cancel">取消</string>
+  <string name="picker_first">首页</string>
+  <string name="picker_end">末页</string>
+  <string name="picker_jump">跳转</string>
+
+  <string name="main_menu_home_page">首页</string>
+  <string name="main_menu_shopping_car">订单</string>
+  <string name="main_menu_user_center">个人中心</string>
+
+</resources>
